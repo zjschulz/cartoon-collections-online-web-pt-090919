@@ -11,7 +11,6 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  if 
   else 
     false
   end
