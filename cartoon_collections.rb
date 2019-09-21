@@ -13,7 +13,7 @@ end
 def long_planeteer_calls(calls)
   all_odd = true
   calls.each do |number|
-  if number.length >= 4
+  if number.length > 4
     all_odd = false
   end
 end
