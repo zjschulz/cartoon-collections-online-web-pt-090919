@@ -12,6 +12,13 @@ end
 
 def long_planeteer_calls(calls)
   calls.all? {|i| i.length < 4}
+  
+  all_odd = true
+  calls.each do |number|
+  if number.length <= 4 
+    all_odd = false
+  end
+end
 end
 
 def find_the_cheese# code an argument here
